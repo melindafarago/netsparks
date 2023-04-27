@@ -66,7 +66,8 @@
       align-content: center;
       gap: 10px;
       overflow: hidden;
-      border-radius: 0 0 20px 20px; }
+      border-radius: 0 0 20px 20px;
+      align-self: stretch; }
       /* line 75, src/assets/scss/style.scss */
       .canvas #item-container #talent div {
         background-color: #e5043b;
@@ -76,11 +77,14 @@
         align-content: center;
         flex: 1 1 0px;
         word-break: break-word;
-        text-align: center; }
-        /* line 84, src/assets/scss/style.scss */
+        text-align: center;
+        justify-content: center;
+        font-size: 30px;
+        align-self: stretch; }
+        /* line 87, src/assets/scss/style.scss */
         .canvas #item-container #talent div:first-child {
           text-align: left; }
-        /* line 87, src/assets/scss/style.scss */
+        /* line 90, src/assets/scss/style.scss */
         .canvas #item-container #talent div:last-child {
           text-align: right; }
 
