@@ -24,6 +24,64 @@
     padding: 20px;
     text-transform: uppercase;
     text-align: center; }
+  /* line 31, src/assets/scss/style.scss */
+  .canvas #item-container {
+    border: 4px solid white;
+    width: 800px;
+    border-radius: 20px;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    font-size: 45px;
+    text-shadow: 2px 2px black;
+    justify-content: space-between;
+    color: white;
+    gap: 10px; }
+    /* line 45, src/assets/scss/style.scss */
+    .canvas #item-container #name {
+      max-width: 100%;
+      font-weight: 700;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background-color: #e5043b;
+      padding: 20px;
+      border-radius: 20px 20px 0px 0; }
+    /* line 56, src/assets/scss/style.scss */
+    .canvas #item-container #date {
+      color: #252525;
+      text-shadow: none;
+      background: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 30px; }
+    /* line 64, src/assets/scss/style.scss */
+    .canvas #item-container #talent {
+      display: flex;
+      align-content: space-between;
+      justify-content: space-between;
+      align-items: center;
+      align-content: center;
+      gap: 10px;
+      overflow: hidden;
+      border-radius: 0 0 20px 20px; }
+      /* line 75, src/assets/scss/style.scss */
+      .canvas #item-container #talent div {
+        background-color: #e5043b;
+        padding: 40px;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        flex: 1 1 0px;
+        word-break: break-word;
+        text-align: center; }
+        /* line 84, src/assets/scss/style.scss */
+        .canvas #item-container #talent div:first-child {
+          text-align: left; }
+        /* line 87, src/assets/scss/style.scss */
+        .canvas #item-container #talent div:last-child {
+          text-align: right; }
 
 /* line 1, src/assets/scss/reset.scss */
 * {
