@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.22"
+  },
+	"scripts" : {
+	"css": "node-sass --include-path scss src/assets/scss/style.scss src/assets/style.css",
+	"watch": "node-sass -watch  scss src/assets/scss/style.scss src/assets/style.css"
+}
+
+}
