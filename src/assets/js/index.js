@@ -24,7 +24,25 @@ async function fetchData(){
 
 
 function toogle(){
-   
+    if (showContent()){
+        anime({
+           targets: ['#item-container'],
+           opacity: '1',
+          
+           duration: 1400,
+           loop: false
+         });
+       toogleButton.innerHTML="Hide";
+   } else {
+       anime({
+           targets: ['#item-container'],
+           opacity: '0',
+          
+           duration: 1400,
+           loop: false
+         });
+       toogleButton.innerHTML="Show";
+   }
 }
 
 function init(){
