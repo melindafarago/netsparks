@@ -27,10 +27,10 @@ async function fetchData(){
 function toogle(){
     if (showContent()){
         renderData();
-        anime({
+      let anim=  anime({
            targets: ['#item-container'],
-           opacity: '1',
-          
+           opacity: 1,
+           easing: 'linear',
            duration: 1400,
            loop: false
          });
@@ -39,8 +39,8 @@ function toogle(){
        
        anime({
            targets: ['#item-container'],
-           opacity: '0',
-          
+           opacity: 0,
+           easing: 'linear',
            duration: 1400,
            loop: false
          });
