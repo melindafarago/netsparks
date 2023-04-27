@@ -1,0 +1,32 @@
+$grey : rgb(37,37,37);
+$border : 4px solid white;
+
+.canvas{
+    width:1920px;
+    height: 950px;
+    background : $grey;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    #toogleButton{
+       
+        font-size:20px;
+        color : white;
+        background : transparent;
+        outline : none;
+        border : $border;
+        position:absolute;
+        top : 50px;
+        right : 50px;
+        border-radius: 20px;
+        padding:20px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+}
+@import "reset";
